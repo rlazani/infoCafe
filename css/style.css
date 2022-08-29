@@ -1,0 +1,255 @@
+
+/* Cores 
+
+#005005 verde escuro h1
+#003300 verde escuro p
+#388e3c verde menu
+
+*/
+
+/* Menu */
+
+
+h1, h2, h3, h4 {
+  color: #005005;
+  font-family: 'Rubik', sans-serif;
+  font-weight: 500;
+}
+
+.titulo {
+  font-family: 'Baloo Thambi 2', cursive;
+  color: #0c740c;
+  font-size: 30px;
+  font-weight: 700;
+  margin-left: 1%;
+  text-decoration: none;
+}
+
+.titulo:hover {
+  color:#bf360c;
+}
+
+
+p {
+  color: #000;
+  font-family: 'Roboto' sans-serif;
+  font-size: 16px;
+}
+
+.navbar {
+  background-color:#fafafa;  
+}
+
+.navbar svg {
+  margin-left: 10%;
+}
+
+.navbar-collapse {
+  margin-right: 10%;
+}
+
+.nav-link {
+  font-size: 1.1rem;
+  font-family: 'Rubik', sans-serif;
+  font-weight: 500;
+  margin-right: 2%;
+  color: #005005;
+}
+
+.nav-link:hover {
+  color: #bf360c;
+}
+
+.menu-inicial button:hover {
+  color: white;
+  background-color: #bf360c;
+}
+
+/* Teste Dropdown */
+
+li a, .dropbtn {
+  display: inline-block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: #bf360c;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1;}
+
+.dropdown:hover .dropdown-content  {
+  display: block;
+}
+
+.dropbtn, .dropdown-content a {
+  text-decoration: none;
+}
+
+
+/* Primeiro Quadro */
+
+.imagem {
+  background-image: linear-gradient(rgba(25, 26, 25, 0.534), rgba(25, 26, 25, 0.534)),
+  url("../Image/foto12.jpg");
+  object-fit: cover;
+  height: 550px; 
+  background-position: bottom right;
+}
+
+.imagem p {
+  color: white;
+  text-align: center;
+  padding: 13% 20% 0% 20%;
+  font-size: 36px;
+  font-weight: 600;
+  text-shadow: 1px .5px rgb(145, 43, 3);
+}
+
+.imagem a {
+  color: white;
+  padding: 0% 45%;
+  font-weight: 700;
+}
+
+/* Segundo Quadro */
+
+#features h2 {
+  padding-bottom: 2%;
+}
+
+#features {
+  padding: 5% 5%;
+}
+
+#features p {
+  padding: 0 10%;
+}
+
+.features-box {
+  text-align: center;
+}
+
+#features p {
+  color: #fafafa;
+  font-size: 22px;
+}
+
+#features-flex {
+  display: flex;
+  justify-content:center;
+}
+
+svg:hover {
+  fill: #bf360c;
+}
+
+.caixas {
+  border: 1px solid #bf360c;
+  padding: 100px;
+  margin: 100px 20px 0px 20px;
+}
+
+.caixa1 {
+  background-image: linear-gradient(rgba(25, 26, 25, 0.534), rgba(25, 26, 25, 0.534)),
+  url("../Image/foto10.jpg");
+}
+
+.caixa2 {
+  background-image: linear-gradient(rgba(25, 26, 25, 0.534), rgba(25, 26, 25, 0.534)),
+  url("../Image/foto6.jpg");
+}
+
+.caixa3 {
+  background-image: linear-gradient(rgba(25, 26, 25, 0.534), rgba(25, 26, 25, 0.534)),
+  url("../Image/foto3.jpg");
+}
+
+/* Terceiro Quadro */
+
+.corSecçãoTres {
+  background-color:#fafafa;
+}
+
+
+
+/* Footer */
+
+footer {
+  text-align: center;
+  height: 150px;
+  background-color: white;
+  padding-top: 3%;
+  color: white;
+  
+}
+
+footer a {
+  color: black;
+}
+
+
+
+/* ### PÁGINA regioes */
+
+.regioes-img {
+  background-image: linear-gradient(rgba(25, 26, 25, 0.534), rgba(25, 26, 25, 0.534)),
+  url("../Image/foto10.jpg");
+  object-fit: cover;
+  height: 350px; 
+}
+
+.regioes-img p {
+  color: white;
+  
+  padding: 8% 20% 0% 10%;
+  font-size: 56px;
+  font-weight: 700;
+  text-shadow: 1px .5px rgb(145, 43, 3);
+}
+
+#menu-outros {
+  opacity: 60%;
+}
+
+
+.regioes-cards {
+  margin: 50px 300px;
+}
+
+
+#esconder .paragrafo {
+  display: none;
+}
+
+#mostrar .paragrafo {
+  display: block;
+}
+
+
+
+
